@@ -26,19 +26,19 @@ description: 从 Yahoo Finance 获取黄金(XAUUSD) RSI 技术指标及 VIX 恐�
 ### 1. 获取黄金 RSI 数据
 
 ```bash
-python d:/Python/gold_fetcher/fetch_gold_rsi.py
+python fetch_gold_rsi.py
 ```
 
 **带参数调用（key=value 格式，推荐）：**
 
 ```bash
-python d:/Python/gold_fetcher/fetch_gold_rsi.py period=1y interval=1wk rsi_period=14 limit=52
+python fetch_gold_rsi.py period=1y interval=1wk rsi_period=14 limit=52
 ```
 
 **带参数调用（JSON 格式）：**
 
 ```bash
-python d:/Python/gold_fetcher/fetch_gold_rsi.py "{\"period\": \"1y\", \"interval\": \"1wk\", \"limit\": 52}"
+python fetch_gold_rsi.py "{\"period\": \"1y\", \"interval\": \"1wk\", \"limit\": 52}"
 ```
 
 **参数说明：**
@@ -61,13 +61,13 @@ python d:/Python/gold_fetcher/fetch_gold_rsi.py "{\"period\": \"1y\", \"interval
 ### 2. 获取 VIX 恐慌指数
 
 ```bash
-python d:/Python/gold_fetcher/fetch_vix.py
+python fetch_vix.py
 ```
 
 **带参数调用：**
 
 ```bash
-python d:/Python/gold_fetcher/fetch_vix.py period=6mo interval=1d limit=50
+python fetch_vix.py period=6mo interval=1d limit=50
 ```
 
 **参数说明：**
